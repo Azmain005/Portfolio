@@ -40,6 +40,10 @@
   color: #757575;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* header */
 
 .header {
@@ -110,13 +114,17 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
 /* About Section */
 
 .about {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
 }
 
 .about-items {
@@ -126,4 +134,17 @@ main {
 
 .item-description {
   font-weight: 600;
+}
+
+/* skill section */
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
 }
